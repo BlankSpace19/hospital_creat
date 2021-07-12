@@ -1,0 +1,25 @@
+.component-screen__inner__left {
+    width: 20%;
+}
+
+.component-screen__inner__left__inner {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.component-screen__inner__left__inner h3 {
+    /* display: block; */
+    background-color: #1875b8;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.component-screen__inner__left__inner li {
+    border-bottom: 1px solid #333;
+    padding-left: 10px;
+    font-size: 19px;
+    line-height: 30px;
+}

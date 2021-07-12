@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* Reset */
+@import "reset.css";
+
+/* Variables */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+/* Components */
+@import "components/screen-modal.css";
+@import "components/screen-header.css";
+@import "components/screen-footer.css";
+@import "components/component-header.css";
+@import "components/component-left.css";
+
+/* Screens */
+@import "screens/main.css";
+@import "screens/guide.css";
+@import "screens/center.css";
+@import "screens/center_clinic.css";
+@import "screens/center_thyroid.css";
+
+body {
+  color: #333;
+  font-family: "Noto Sans KR", "Roboto", sans-serif;
+  width: 100%;
+  min-width: 1080px;
+  height: 100%;
+}
+
+a,
+a:link {
+  text-decoration: none;
+}
+
+a:hover:not(.top-logo, .share) {
+  opacity: 0.6;
+}
+
+.wrap {
+  width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}

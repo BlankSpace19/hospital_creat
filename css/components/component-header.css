@@ -1,0 +1,54 @@
+.component-header {
+    margin-top: 40px;
+}
+
+.component-header__inner {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.component-header__inner__center {
+    text-align: center;
+}
+
+.component-header__inner__center h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.component-header__inner__center p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 15px;
+}
+
+.component-header__inner__right {
+    position: absolute;
+    width: 250px;
+    top: 0%;
+    right: 35px;
+}
+
+.component-header__inner__right__link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.component-header__inner__right__link li:hover {
+    opacity: 0.6;
+}
+
+.component-header__inner__right__link img {
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+}
+
+.component-header__inner__right__link span {
+    display: block;
+    font-size: 13px;
+    color: #777;
+    margin-top: 5px;
+}

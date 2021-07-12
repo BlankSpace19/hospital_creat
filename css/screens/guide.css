@@ -1,0 +1,17 @@
+.guide-screen {
+    margin-top: 10px;
+}
+
+.guide-screen__inner {
+    display: flex;
+}
+
+.guide-screen__inner__right {
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.guide-screen__inner__right__inner__reservation {
+    display: flex;
+}

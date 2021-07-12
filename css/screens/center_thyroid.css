@@ -1,0 +1,150 @@
+.center-screen {
+    margin-top: 10px;
+}
+
+.center-screen__inner {
+    display: flex;
+}
+
+.center-screen__inner__right {
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.center-screen__inner__right__title {
+    width: 100%;
+    height: 140px;
+    box-sizing: border-box;
+    text-align: left;
+    border: 1px dotted #333;
+    padding: 30px;
+    position: relative;
+}
+
+.center-screen__inner__right__title h3 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.center-screen__inner__right__title span {
+    line-height: 15px;
+    font-size: 15px;
+    color: #777;
+}
+
+.center-screen__inner__right__title img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 30px;
+    right: 50px;
+}
+
+.center-screen__inner__right__button {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.center-screen__inner__right__button li {
+    width: 50%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.center-screen__inner__right__button li:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+.center-screen__inner__right__button li:first-child {
+    border-right: none;
+    font-weight: 600;
+}
+
+.center-screen__inner__right__content {
+    margin-top: 50px;
+}
+
+.center-screen__inner__right__content h3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    /* margin-bottom: 15px;  진료소개 */
+}
+.center-screen__inner__right__content p {
+    line-height: 30px;
+}
+
+.center-screen__inner__right__content-column {
+    font-size: 15px;
+    line-height: 25px;
+    color: #333;
+}
+
+.center-screen__inner__right__content-column li {
+    margin: 10px 0;
+}
+
+.center-screen__inner__right__content-column h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 15px 0;
+}
+
+.center-screen__inner__right__content-column span {
+    color: violet;
+}
+
+.center-screen__inner__right__content-column li {
+    display: inline-block
+}
+
+.center-screen__inner__right__site {
+    margin: 30px 0 90px;
+}
+
+.center-screen__inner__right__site h4 {
+    font-size: 20px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.center-screen__inner__right__site .box {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.center-screen__inner__right__site .share {
+    margin-top: 30px;
+}
+
+.center-screen__inner__right__site .share ul {
+    display: flex;
+    float: right;
+}
+
+.center-screen__inner__right__site .share li {
+    margin-left: 10px;
+}
+
+.center-screen__inner__right__site .share .hide {
+    display: none;
+}
+
+.center-screen__inner__right__site .share li:hover .show {
+    display: none;
+}
+
+.center-screen__inner__right__site .share li:hover .hide {
+    display: block;
+}
+

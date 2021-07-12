@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>율제병원</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js" defer></script>
+  <script src="script/script.js" defer></script>
+</head>
+
+<body>
+    
+    <!-- //modal -->
+    <div id="modal" class="popup">
+      <div class="modal_box" >
+  <img src="images/modal/modal.png" alt="modal">
+  <div class="popup_box">
+  <input type="checkbox" id="popup">
+        <label for="popup">오늘 하루 안보기</label>
+      </div>
+            <input type="button" value="닫기" id="close">
+      
+      </div>
+    </div>
+
+  <div class="wrap">
+    <header class="screen-header">
+      <div class="screen-header__logo-shortcut">
+        <div class="screen-header__logo"><a class="top-logo" href="index.html"><img src="images/logo/top_logo.png" alt="top_logo"></a></div>
+        <!-- /.screen-header__logo -->
+        <div class="screen-header__top-menu-shortcut">
+          <ul class="screen-header__top-menu__list">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+          </ul>
+          <div class="screen-header__shortcut__shortcuts">
+            <ul>
+              <li><a href="#"><img src="" alt=""></a></li>
+              <li><a href="#"><img src="" alt=""></a></li>
+              <li><a href="#"><img src="" alt=""></a></li>
+              <li><a href="#"><img src="" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.screen-header__top-menu-shortcut -->
+      </div>
+      <!-- /.screen-header__logo-shortcut -->
+      <div class="screen-header__navi">
+        
+        <nav class="screen-header__navi__depth">
+          <ul class="screen-header__navi__depth01">
+            <li>
+              <a href="#">예약/조회/발급</a>
+              <ul class="screen-header__navi__depth02">
+                <li><a href="#">예약안내</a></li>
+                <li><a href="#">온라인 예약</a></li>
+                <li><a href="#">예약조회/취소</a></li>
+                <li><a href="#">증명서 확인/발급</a>
+                  <!-- <ul class="screen-header__navi__depth03">
+                    <li><a href="#">인터넷발급</a></li>
+                    <li><a href="#">진단서발급</a></li>
+                    <li><a href="#">의무기록사본발급</a></li>
+                    <li><a href="#">대리처방 신청서 발급</a></li>
+                  </ul> -->
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">의료진/진료과</a>
+              <ul class="screen-header__navi__depth02">
+                <li><a href="#">의료진</a></li>
+                <li><a href="#">진료과</a></li>
+                <li><a href="center_clinic.html">센터/클리닉</a>
+                  <!-- <ul class="depth03">
+                      <li><a href="#">전문진료센터</a></li>
+                      <li><a href="#">전문클리닉</a></li>
+                    </ul> -->
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">이용안내</a>
+              <ul class="screen-header__navi__depth02">
+                <li><a href="#">비급여진료비용</a></li>
+                <li><a href="#">입&middot;퇴원 안내</a></li>
+                <li><a href="#">비자신체검진</a></li>
+                <li><a href="#">국가건강검진</a></li>
+                <li><a href="#">투약 및 주사절차</a></li>
+                <li><a href="#">편의시설 안내</a></li>
+                <li><a href="#">층별안내</a></li>
+                <li><a href="#">전화번호 안내</a></li>
+                <li><a href="#">찾아오시는 길</a></li>
+                <li><a href="#">주차안내</a></li>
+                <li><a href="#">고객상담실</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">병원소개</a>
+              <ul class="screen-header__navi__depth02">
+                <li><a href="#">원장인사말</a></li>
+                <li><a href="#">병원소개</a>
+                  <!-- <ul class="screen-header__navi__depth03">
+                      <li><a href="#">연혁</a></li>
+                      <li><a href="#">조직도</a></li>
+                      <li><a href="#">비전/핵심가치</a></li>
+                      <li><a href="#">율제병원 소식지</a></li>
+                      <li><a href="#">홍보영상</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">병원소식</a>
+                  <!-- <ul class="screen-header__navi__depth03">
+                      <li><a href="#">공지</a></li>
+                      <li><a href="#">뉴스</a></li>
+                      <li><a href="#">채용</a></li>
+                      <li><a href="#">언론보도</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">사회공헌</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- /.screen-header__navi__depth01 -->
+          <div class="screen-header__navi__background"></div>
+        <!-- /.screen-header__navi__background -->
+        </nav>
+        <!-- /.screen-header__navi_depth -->
+        <div class="screen-header__navi__burger-search">
+          <span><a href="#"><i class="fas fa-bars fa-lg"></i></a></span>
+          <span><a href="#"><i class="fas fa-search fa-lg"></i></a></span>
+        </div>
+      </div>
+      <!-- /.screen-header__navi -->
+    </header>
+    <!-- screen-header -->
+
+    <main class="main-screen">
+      <article class="main-screen__link-slide">
+        <div class="main-screen__link">
+          <ul>
+            <li><a href="#"><img src="images/slide/left_icon1.png" alt="slide_short_img"></a>
+            </li>
+            <li><a href="#"><img src="images/slide/left_icon2.png" alt="slide_short_img"></a>
+            </li>
+            <li><a href="#"><img src="images/slide/left_icon3.png" alt="slide_short_img"></a></li>
+            <li><a href="#"><img src="images/slide/left_icon4.png" alt="slide_short_img"></a>
+            </li>
+            <li><a href="#"><img src="images/slide/left_icon5.png" alt="slide_short_img"></a></li>
+            <li><a href="#"><img src="images/slide/left_icon6.png" alt="slide_short_img"></a></li>
+          </ul>
+        </div>
+        <!-- /.main-screen__link -->
+
+        <div class="main-screen__slide">
+          <ul class="bxslider">
+            <li>
+              <a href="#"><img src="images/slide/slide_img1.png" alt="slide1"><span>지역에 봉사하고</span><h2>신뢰받는 율제병원</h2></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/slide/slide_img2.png" alt="slide2"><span>대한민국 최고의 의료기술</span><h2>수술 잘하는 율제종합병원</h2></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/slide/slide_img3.png" alt="slide3"><span>인간을 사랑하고 생명을 존중하는</span><h2>글로벌 메디컬 율제병원</h2></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/slide/slide_img4.png" alt="slide4"><span>대한민국 최고 수준의 인프라</span><h2>최신식 건축물과 시설, 장비들</h2></a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.main-screen__slide -->
+      </article>
+      <!-- /.main-screen__link-slide -->
+
+      <article class="main-screen__quick-link">
+        <ul>
+          <li class="main-screen__quick-link1"><a href="#"><img src="images/shortcut/contents_shortcut1.png"
+                alt="quick_link"><span>온라인 진료예약</span></a></li>
+          <li class="main-screen__quick-link2"><a href="#"><img src="images/shortcut/contents_shortcut2.png"
+                alt="quick_link"><span>진료과&middot;의료진 검색</span></a></li>
+          <li class="main-screen__quick-link3"><a href="#"><img src="images/shortcut/contents_shortcut3.png"
+                alt="quick_link"><span>비자(VISA)검진 예약</span></a></li>
+          <li class="main-screen__quick-link4"><a href="#"><img src="images/shortcut/contents_shortcut4.png"
+                alt="quick_link"><span>진료예약 조회</span></a></li>
+          <li><span><strong class="tit1">전화예약</strong><strong class="tit2">062-860-9698</strong>통화 한번으로
+              빠르게<br>예약하세요.</span></li>
+        </ul>
+      </article>
+      <!-- /.main-screen__quick-link -->
+
+      <article class="main-screen__introduce">
+        <div class="main-screen__introduce__inner">
+          <h2 class="main-screen__introduce__inner__title">센터소개</h2>
+          <p class="main-screen__introduce__inner__txt">율제병원은 질환별 전문진료센터를 운영하고있습니다.</p>
+
+          <div class="main-screen__introduce__inner__center-banner">
+            <ul>
+              <li><a href="#"><img src="images/center/center_image1.png" alt="introduce"></a></li>
+              <li><a href="#"><img src="images/center/center_image2.png" alt="introduce"></a></li>
+              <li><a href="#"><img src="images/center/center_image3.png" alt="introduce"></a></li>
+              <li><a href="#"><img src="images/center/center_image4.png" alt="introduce"></a></li>
+            </ul>
+          </div>
+
+          <div class="main-screen__introduce__inner__banner-slide">
+            <ul>
+              <li><a href="center.html"><img src="images/center/img1_medi_center2.png" alt="introduce"></a></li>
+              <li><a href="center_thyroid.html"><img src="images/center/img2_medi_center2.png" alt="introduce"></a></li>
+              <li><a href="#"><img src="images/center/img3_medi_center2.png" alt="introduce"></a></li>
+              <li><a href="#"><img src="images/center/img4_medi_center2.png" alt="introduce"></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </article>
+      <!-- /.main-screen__introduce -->
+
+      <article class="main-screen__issue">
+        <div class="main-screen__issue__inner">
+          <h2 class="main-screen__issue__inner__title">이슈</h2>
+          <p class="main-screen__issue__inner__txt">율제병원의 뉴스와 유용한 건강정보를 알려드립니다.</p>
+          <div class="main-screen__issue__inner__contents">
+            <div class="main-screen__issue__inner__contents-row">
+              <div class="main-screen__issue__inner__contents__issue-small">
+                <ul>
+                  <li><a href="#"><img src="images/issue/img1_issue.png" alt="issue-small"></a></li>
+                  <li><a href="#"><img src="images/issue/img2_issue.png" alt="issue-small"></a></li>
+                  <li><a href="#"><img src="images/issue/Issue2.png" alt="issue-small"></a></li>
+                  <li><a href="#"><img src="images/issue/Issue3.png" alt="issue-small"></a></li>
+                </ul>
+              </div>
+              <!-- /.main-screen__issue__inner__contents__issue-small -->
+
+              <div class="main-screen__issue__inner__contents__issue-big">
+                <a href="#"><img src="images/issue/Issue1.png" alt="issue-big"></a>
+              </div>
+              <!-- /.main-screen__issue__inner__contents__issue-big -->
+
+            </div>
+          </div>
+          <!-- /.main-screen__issue__inner__contents -->
+        </div>
+      </article>
+      <!-- /.main-screen__issue -->
+
+      <article class="main-screen__news">
+        <div class="main-screen__news__inner">
+          <h2 class="main-screen__news__inner__title">병원 소식</h2>
+          <p class="main-screen__news__inner__txt">율제병원의 다양한 소식을 전해드립니다.</p>
+          <div class="main-screen__news__contents">
+            <div class="main-screen__news__contents-row">
+              <div class="main-screen__news__contents__news-box">
+                <h3>공지<a class="main-screen__news__contents__news-box__more" href="#"><i class="fas fa-plus"></i></a></h3>
+                
+                <ul>
+                  <li class="main-screen__news__contents__news-box__open">
+                    <a href="#">
+                      <span class="main-screen__news__contents__news-box__open-title">
+                        제2회 교직원 사진공모전 수상작 전시
+                      </span>
+                      <p>@@@ 온라인 전시 바로가기 @@@</p>
+                      <em class="main-screen__news__contents__news-box__open-date">2021-07-17</em>
+                    </a>
+                  </li>
+                  <li><a href="#"><span>간이식 주제로 온라인 건강교실</span></a></li>
+                  <li><a href="#"><span>병동환자 의무기록사본 신청 변경 안내</span></a></li>
+                </ul>
+              </div>
+
+              <div class="main-screen__news__contents__news-box">
+                <h3>소식<a class="main-screen__news__contents__news-box__more" href="#"><i class="fas fa-plus"></i></a></h3>
+                
+                <ul>
+                  <li class="main-screen__news__contents__news-box__open">
+                    <a href="#">
+                      <span class="main-screen__news__contents__news-box__open-title">
+                        박명찬 교수, 강소특구 기술이전화 사업에 선정
+                      </span>
+                      <p>강소특구 기술이전화 사업에 선정되어 전향적 다기관 임상연구 비뇨의학과 박</p>
+                      <em class="main-screen__news__contents__news-box__open-date">2021-07-15</em>
+                    </a>
+                  </li>
+                  <li><a href="#"><span>율제병원 창립10주년 및 개원 1주년 기념</span></a></li>
+                  <li><a href="#"><span>박민강 교수, 이공 기초연구사업 선정</span></a></li>
+                </ul>
+              </div>
+
+              <div class="main-screen__news__contents__news-box">
+                <h3>입찰<a class="main-screen__news__contents__news-box__more" href="#"><i class="fas fa-plus"></i></a></h3>
+                
+                <ul>
+                  <li class="main-screen__news__contents__news-box__open">
+                    <a href="#">
+                      <span class="main-screen__news__contents__news-box__open-title">
+                        [입찰공고] 율제병원 연구동증축공사[소방]
+                      </span>
+                      <p>공 사 입 찰 공 고1. 입찰에 부치는 사항 가.입찰건명: 율제병원 연구동 증축</p>
+                      <em class="main-screen__news__contents__news-box__open-date">2021-07-10</em>
+                    </a>
+                  </li>
+                  <li><a href="#"><span>[입찰공고] 율제병원 연구동증축공사</span></a></li>
+                  <li><a href="#"><span>[입찰공고] 율제병원 연구동증축공사</span></a></li>
+                </ul>
+              </div>
+
+              <div class="main-screen__news__contents__news-box">
+                <h3>채용<a class="main-screen__news__contents__news-box__more" href="#"><i class="fas fa-plus"></i></a></h3>
+                
+                <ul>
+                  <li class="main-screen__news__contents__news-box__open">
+                    <a href="#">
+                      <span class="main-screen__news__contents__news-box__open-title">
+                        진단검사의학과 계약직 임상병리사 모집공고
+                      </span>
+                      <p>진단검사의학과 계약직 임상병리사 모집공고 1. 모집에 관한 사항 가.모집분야:</p>
+                      <em class="main-screen__news__contents__news-box__open-date">2021-07-25</em>
+                    </a>
+                  </li>
+                  <li><a href="#"><span>율제병원 총무부 계약직 사원 채용</span></a></li>
+                  <li><a href="#"><span>소아청소년과 (NICU) 전담전문의 모집 공고</span></a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <!-- /.main-screen__news__contents -->
+        </div>
+      </article>
+      <!-- /.main-screen__news -->
+
+      <article class="main-screen__sns">
+        <div class="main-screen__sns__inner">
+          <h2 class="main-screen__sns__inner__title">SNS</h2>
+          <p class="main-screen__sns__inner__txt">율제병원의 SNS채널을 소개합니다.</p>
+          <div class="main-screen__sns__contents">
+            <div class="main-screen__sns__contents-row">
+              <div class="main-screen__sns__contents__sns-box">
+                <div class="main-screen__sns__contents__sns-box__inner">
+                  <h3 class="main-screen__sns__contents__sns-box__inner__title">유튜브
+                    <a class="main-screen__sns__contents__sns-box__inner__more" href="#"><i class="fas fa-plus"></i></a>
+                  </h3>
+                  <a href="#">
+                    <img class="main-screen__sns__contents__sns-box__inner__thumb" src="images/sns/sns1.jpg" alt="sns_thumb">
+                    <img class="main-screen__sns__contents__sns-box__inner__icon" src="images/youtube2.png" alt="youtube">
+                  </a>
+                  <a href="#"><span>요요없는 다이어트가 존재한다??</span></a>
+                </div>
+              </div>
+
+              <div class="main-screen__sns__contents__sns-box">
+                <div class="main-screen__sns__contents__sns-box__inner">
+                  <h3 class="main-screen__sns__contents__sns-box__inner__title">페이스북
+                    <a class="main-screen__sns__contents__sns-box__inner__more" href="#"><i class="fas fa-plus"></i></a>
+                  </h3>
+                  <a href="#">
+                    <img class="main-screen__sns__contents__sns-box__inner__thumb" src="images/sns/sns2.jpg" alt="sns_thumb">
+                    <img class="main-screen__sns__contents__sns-box__inner__icon" src="images/facebook2.png" alt="facebook">
+                  </a>
+                  <a href="#"><span>율제병원 입원실 소개!</span></a>
+                </div>
+              </div>
+
+              <div class="main-screen__sns__contents__sns-box">
+                <div class="main-screen__sns__contents__sns-box__inner">
+                  <h3 class="main-screen__sns__contents__sns-box__inner__title">인스타그램
+                    <a class="main-screen__sns__contents__sns-box__inner__more" href="#"><i class="fas fa-plus"></i></a>
+                  </h3>
+                  <a href="#">
+                    <img class="main-screen__sns__contents__sns-box__inner__thumb" src="images/sns/sns3.jpg" alt="sns_thumb">
+                    <img class="main-screen__sns__contents__sns-box__inner__icon" src="images/instagram2.png" alt="instagram">
+                  </a>
+                  <a href="#"><span>당신의 건강 꿰뚫어 보기~</span></a>
+                </div>
+              </div>
+
+              <div class="main-screen__sns__contents__sns-box">
+                <div class="main-screen__sns__contents__sns-box__inner">
+                  <h3 class="main-screen__sns__contents__sns-box__inner__title">트위터
+                    <a class="main-screen__sns__contents__sns-box__inner__more" href="#"><i class="fas fa-plus"></i></a>
+                  </h3>
+                  <a href="#">
+                    <img class="main-screen__sns__contents__sns-box__inner__thumb" src="images/sns/sns4.jpg" alt="sns_thumb">
+                    <img class="main-screen__sns__contents__sns-box__inner__icon" src="images/twitter2.png" alt="twitter">
+                  </a>
+                  <a href="#"><span>코로나와 관련된 세계뉴스 모아보기</span></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- /.main-screen__sns__contents -->
+        </div>
+      </article>
+      <!-- /.main-screen__sns -->
+
+      <article class="main-screen__contact">
+        <div class="main-screen__contact__inner">
+          <div class="main-screen__contact__inner__contents">
+            <div class="main-screen__contact__inner__contents__text">
+              <span class="main-screen__contact__inner__contents__text__top"><strong>contactus</strong></span>
+              <h2 class="main-screen__contact__inner__contents__text__title">오시는 길</h2>
+              <ul class="main-screen__contact__inner__contents__text__add">
+                <li><strong>주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</strong><span>광주광역시 서구 시청로96번길 12 율제병원</span></li>
+                <li><strong>전&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;화</strong><span>062-860-9698</span></li>
+                <li><strong>문&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자</strong><span>010-8609-6948</span></li>
+                <li><strong>카카오플러스친구</strong><span>@율제병원플러스친구</span></li>
+                <li><strong>진료시간</strong><span>평일 : 오전 9시 ~ 오후 6시</span><span
+                    class="main-screen__contact__inner__contents__text__last-span">토요일 : 오전 9시 ~ 오후 4시 / 일요일,공휴일
+                    휴진</span></li>
+              </ul>
+              <div class="main-screen__contact__inner__contents__text__button">
+                <input class="main-screen__contact__inner__contents__text__button01" type="button" value="온라인상담">
+                <input class="main-screen__contact__inner__contents__text__button02" type="button" value="오시는 길">
+              </div>
+            </div>
+            <!-- /.main-screen__contact__inner__contents__text -->
+
+            <div class="main-screen__contact__inner__contents__map">
+              map
+            </div>
+            <!-- /.main-screen__contact__inner__contents__map -->
+
+          </div>
+          <!-- /.main-screen__contact__inner__contents -->
+        </div>
+      </article>
+      <!-- /.main-screen__contact -->
+
+    </main>
+    <!-- /.main-screen -->
+
+    <footer class="screen-footer">
+      <div class="screen-footer__inner">
+        <div class="screen-footer__inner-row">
+          <div class="screen-footer__inner__bottom_logo">
+            <img src="images/logo/sub_logo.png" alt="bottom_logo">
+          </div>
+
+          <div class="screen-footer__inner__info">
+            <ul class="screen-footer__inner__info__footer-link">
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">영상정보처리기기운영방침</a></li>
+              <li><a href="#">환자권리장전</a></li>
+            </ul>
+            <div class="screen-footer__inner__info__copyright">
+              <address>광주광역시 시청로 96번길 12 (우)61946 &#124; 율제병원</address>
+              <span>copyright &copy; 2021 yul-je hospital. all rights reserved.</span>
+            </div>
+            <div class="screen-footer__inner__info__etc">
+              <img src="images/Certification-Mark.png" alt="info_ect">
+              <img src="images/isms.png" alt="info_ect">
+              <img src="images/iso27001.png" alt="info_ect">
+            </div>
+          </div>
+
+          <div class="screen-footer__inner__tel-family">
+            <div class="screen-footer__inner__tel-num">
+              <h4>대표전화(안내)</h4>
+              <span>062-860-9698</span>
+            </div>
+            <div class="screen-footer__inner__family-site">
+              <select name="familySite" id="family-site">
+                <option>광주율제병원</option>
+                <option>서울율제병원</option>
+                <option>부산율제병원</option>
+                <option>인천율제병원</option>
+                <option>대전율제병원</option>
+                <option>제주율제병원</option>
+                <option>율제대학교의원</option>
+            </select>
+            <input type="button" value="이동" id="moveSite">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
+    <!-- /.screen-footer -->
+  </div>
+  <div class="screen-footer__footer-fix">
+    <div class="screen-footer__footer-fix__inner">
+      <ul class="screen-footer__footer-fix__inner__menu">
+        <li><a href="#"><img src="images/bottom_nav/bottom_nav_icon1_22x22.png" alt="date">진료예약</a></li>
+        <li><a href="#"><img src="images/bottom_nav/bottom_nav_icon2_22x22.png" alt="scadule">진료시간표</a></li>
+        <li><a href="#"><img src="images/bottom_nav/bottom_nav_icon3_22x22.png" alt="department">진료과</a></li>
+        <li><a href="#"><img src="images/bottom_nav/bottom_nav_icon4_22x22.png" alt="center">전문진료센터</a></li>
+        <li><a href="#"><img src="images/bottom_nav/bottom_nav_icon5_22x22.png" alt="clinic">전문클리닉</a></li>
+        <li><a href="#"><img src="images/bottom_nav/bottom_nav_icon6_22x22.png" alt="phone-number">전화번호안내</a></li>
+        <li><a href="#"><img src="images/bottom_nav/bottom_nav_icon7_22x22.png" alt="directions">찾아오시는길</a></li>
+      </ul>
+      <div class="screen-footer__footer-fix__inner__home-top">
+        <ul>
+          <li><a href="#"><img src="images/bottom_nav/bottom_home_icon.png" alt="home">home</a></li>
+          <li><a href="#"><img src="images/bottom_nav/bottom_Top_icon.png" alt="top">top</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/f991a171c3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
