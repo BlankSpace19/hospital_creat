@@ -6,13 +6,13 @@
     display: flex;
 }
 
-.center-screen__inner__right {
+.thyroid-screen__inner__right {
     width: 80%;
     padding: 20px;
     margin-bottom: 100px;
 }
 
-.center-screen__inner__right__title {
+.thyroid-screen__inner__right__title {
     width: 100%;
     height: 140px;
     box-sizing: border-box;
@@ -22,19 +22,19 @@
     position: relative;
 }
 
-.center-screen__inner__right__title h3 {
+.thyroid-screen__inner__right__title h3 {
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 10px;
 }
 
-.center-screen__inner__right__title span {
+.thyroid-screen__inner__right__title span {
     line-height: 15px;
     font-size: 15px;
     color: #777;
 }
 
-.center-screen__inner__right__title img {
+.thyroid-screen__inner__right__title img {
     position: absolute;
     width: 80px;
     height: 80px;
@@ -42,66 +42,66 @@
     right: 50px;
 }
 
-.center-screen__inner__right__button {
+.thyroid-screen__inner__right__button {
     width: 100%;
     margin-top: 20px;
     display: flex;
 }
 
-.center-screen__inner__right__button li {
+.thyroid-screen__inner__right__button li {
     width: 50%;
     text-align: center;
     border: 1px solid #ddd;
     padding: 15px;
 }
 
-.center-screen__inner__right__button li:hover {
+.thyroid-screen__inner__right__button li:hover {
     cursor: pointer;
     opacity: 0.6;
 }
 
 
-.center-screen__inner__right__button li:first-child {
+.thyroid-screen__inner__right__button li:first-child {
     border-right: none;
     font-weight: 600;
 }
 
-.center-screen__inner__right__content {
+.thyroid-screen__inner__right__content {
     margin-top: 50px;
 }
 
-.center-screen__inner__right__content h3 {
+.thyroid-screen__inner__right__content h3 {
     font-size: 25px;
     font-weight: 600;
     padding-bottom: 30px;
     /* margin-bottom: 15px;  진료소개 */
 }
-.center-screen__inner__right__content p {
+.thyroid-screen__inner__right__content p {
     line-height: 30px;
 }
 
-.center-screen__inner__right__content-column {
+.thyroid-screen__inner__right__content-column {
     font-size: 15px;
     line-height: 25px;
     color: #333;
 }
 
-.center-screen__inner__right__content-column li {
+.thyroid-screen__inner__right__content-column li {
     margin: 10px 0;
 }
 
-.center-screen__inner__right__content-column h4 {
+.thyroid-screen__inner__right__content-column h4 {
     font-size: 20px;
     font-weight: 600;
     color: #333;
     margin: 15px 0;
 }
 
-.center-screen__inner__right__content-column span {
+.thyroid-screen__inner__right__content-column span {
     color: violet;
 }
 
-.center-screen__inner__right__content-column li {
+.thyroid-screen__inner__right__content-column li {
     display: inline-block
 }
 

@@ -28,7 +28,7 @@ $(function(){
  //3. modal
  $(function(){
  
-  $('#close').click(function(){
+  $('.close').click(function(){
 $('#modal').hide(); //닫기
 });
 });

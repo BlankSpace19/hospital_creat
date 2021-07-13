@@ -16,7 +16,7 @@
   border:1px solid #666;
 }
 
-.modal_box #close {
+.modal_box .close {
   position: absolute;
   background:#1875B8;
   padding:10px 20px;
